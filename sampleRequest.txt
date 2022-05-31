@@ -152,6 +152,15 @@ untuk usermaker3 (userprofile 346)
 }
 inboxid didapat dari inboxid ketika hit getuserinbox.
 
+
+userservice/getdetailuserinbox
+{
+  "inboxId": 3809,
+  "language": "IDN"
+}
+untuk usermaker3 (userprofile 346)
+
+
 informationservice/validatesmsnotificationregistration
 {
   "phoneNumber": "086127637612"
