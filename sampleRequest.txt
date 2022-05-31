@@ -136,6 +136,18 @@ atau dengan usermaker2 (no rek 14013000150777)
 }
 user_profile 504
 
+====
+{
+  "inboxGroup": "BILLPAYMENT",
+  "inboxStatus": null,
+  "language": "IDN",
+  "pageNumber": 0,
+  "period": 3,
+  "sof": "14013000150776",
+  "sortBy": "ASC"
+}
+usermaker4 (userprofile 347)
+
 
 userservice/deleteuserinbox
 {
@@ -155,10 +167,10 @@ inboxid didapat dari inboxid ketika hit getuserinbox.
 
 userservice/getdetailuserinbox
 {
-  "inboxId": 3809,
+  "inboxId": 3845,
   "language": "IDN"
 }
-untuk usermaker3 (userprofile 346)
+untuk usermaker4 (userprofile 347)
 
 
 informationservice/validatesmsnotificationregistration
