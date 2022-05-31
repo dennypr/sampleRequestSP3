@@ -136,6 +136,22 @@ atau dengan usermaker2 (no rek 14013000150777)
 }
 user_profile 504
 
+
+userservice/deleteuserinbox
+{
+  "inboxId": [
+    3443
+  ]
+}
+untuk usermaker3 (userprofile 346)
+=========
+{
+  "inboxId": [
+    3443, 3441, 3442
+  ]
+}
+inboxid didapat dari inboxid ketika hit getuserinbox.
+
 informationservice/validatesmsnotificationregistration
 {
   "phoneNumber": "086127637612"
