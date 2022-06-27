@@ -1,20 +1,20 @@
-/getcorporatesof
+myaaccountservice/getcorporatesof
 {
 	no payload
 }
 
-/getprevioustransactionhistory
+purchaseservice/getprevioustransactionhistory
 {
   "totalData": 1,
   "transactionCategory": "PURCHASE_PHONE"
 }
 
-/getbillerlist
+purchaseservice/getbillerlist
 {
   "billerCategory": "104"
 }
 
-/inquiryPurchase
+purchaseservice/inquiryPurchase
 {
   "channelCode": "IB",
   "template": [
@@ -73,7 +73,7 @@
   ]
 }
 
-/executePurchase
+purchaseservice/executePurchase
 {
   "mpin": "6a1165e757fac0e24f01db26e3....",
   "sofToken": "YxtxhDaOlQ4xqoy",
