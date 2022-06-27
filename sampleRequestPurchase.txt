@@ -1,0 +1,74 @@
+/getcorporatesof
+{
+	no payload
+}
+
+/getprevioustransactionhistory
+{
+  "totalData": 1,
+  "transactionCategory": "PURCHASE_PHONE"
+}
+
+/getbillerlist
+{
+  "billerCategory": "104"
+}
+
+/inquiryPurchase
+{
+  "channelCode": "IB",
+  "template": [
+   {
+          "lineNum": 1,
+          "fieldKey": "SOF",
+          "fieldType": "LISTSOF",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Select Source of Amount",
+          "placeholderId": "Pilih Rekening Sumber Dana",
+          "labelEn": "Source Of Amount",
+          "labelId": "Rekening Sumber Dana",
+          "inputType": "Y",
+          "value": "0"
+        },
+        {
+          "lineNum": 2,
+          "fieldKey": "CUSTNO",
+          "fieldType": "TEXTNUM",
+          "minFieldLength": 1,
+          "maxFieldLength": 15,
+          "placeholderEn": "Phone Number",
+          "placeholderId": "Nomor Telepon",
+          "labelEn": "Phone Number :",
+          "labelId": "No Telp/HP :",
+          "inputType": "Y",
+          "value": "1"
+        },
+        {
+          "lineNum": 3,
+          "fieldKey": "AMOUNT",
+          "fieldType": "LISTPACKETDATA",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Product",
+          "placeholderId": "Produk",
+          "labelEn": "Product",
+          "labelId": "Produk",
+          "inputType": "Y",
+          "value": "10000"
+        },
+        {
+          "lineNum": 4,
+          "fieldKey": "PAYEECODE",
+          "fieldType": "NONE",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "",
+          "placeholderId": "",
+          "labelEn": "",
+          "labelId": "",
+          "inputType": "Y",
+          "value": "PN001008"
+        }
+  ]
+}
