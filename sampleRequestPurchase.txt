@@ -3,16 +3,1667 @@ myaaccountservice/getcorporatesof
 	no payload
 }
 
+response :
+{
+  "sof": [
+    {
+      "accountNumber": "1401300597578",
+      "accountStatus": 0,
+      "accountType": "SA",
+      "productName": "Tabungan UI SA",
+      "productType": "UI",
+      "productCode": null,
+      "currency": "IDR",
+      "cardNumber": null,
+      "cardStatus": null,
+      "ordering": 8,
+      "isVisible": true,
+      "isSof": true,
+      "additionalData": "{\"accountNumberMasked\":\"*********7578\",\"currency\":\"IDR\",\"balanceTotal\":82018380101.99,\"balanceAvailable\":28017310101.99,\"balanceHold\":54001070000.00,\"dateOpen\":1276707600000,\"productName\":null,\"ownerName\":\"NASABAH SAVING\",\"rate\":0.0425}",
+      "accountAlias": "Tabungan UI SA",
+      "balance": 82018380101.99,
+      "isPrimary": false,
+      "accountOwnerName": null,
+      "accountLinking": null,
+      "accountIndex": 0,
+      "userProfileId": 345
+    },
+    {
+      "accountNumber": "1401300597598",
+      "accountStatus": 0,
+      "accountType": "SA",
+      "productName": "Tabungan UI SA",
+      "productType": "UI",
+      "productCode": null,
+      "currency": "IDR",
+      "cardNumber": null,
+      "cardStatus": null,
+      "ordering": 9,
+      "isVisible": true,
+      "isSof": true,
+      "additionalData": "{\"accountNumberMasked\":\"*********7598\",\"currency\":\"IDR\",\"balanceTotal\":82018380101.99,\"balanceAvailable\":28017310101.99,\"balanceHold\":54001070000.00,\"dateOpen\":1276707600000,\"productName\":null,\"ownerName\":\"NASABAH SAVING\",\"rate\":0.0425}",
+      "accountAlias": "Tabungan UI SA",
+      "balance": 82018380101.99,
+      "isPrimary": false,
+      "accountOwnerName": null,
+      "accountLinking": null,
+      "accountIndex": 1,
+      "userProfileId": 345
+    },
+    {
+      "accountNumber": "1401300597597",
+      "accountStatus": 0,
+      "accountType": "SA",
+      "productName": "Tabungan UI SA",
+      "productType": "UI",
+      "productCode": null,
+      "currency": "IDR",
+      "cardNumber": null,
+      "cardStatus": null,
+      "ordering": 6,
+      "isVisible": true,
+      "isSof": true,
+      "additionalData": "{\"accountNumberMasked\":\"*********7597\",\"currency\":\"IDR\",\"balanceTotal\":82018380101.99,\"balanceAvailable\":28017310101.99,\"balanceHold\":54001070000.00,\"dateOpen\":1276707600000,\"productName\":null,\"ownerName\":\"NASABAH SAVING\",\"rate\":0.0425}",
+      "accountAlias": "Tabungan UI SA",
+      "balance": 82018380101.99,
+      "isPrimary": false,
+      "accountOwnerName": null,
+      "accountLinking": null,
+      "accountIndex": 2,
+      "userProfileId": 345
+    },
+    {
+      "accountNumber": "1401300597599",
+      "accountStatus": 0,
+      "accountType": "SA",
+      "productName": "Tabungan UI SA",
+      "productType": "UI",
+      "productCode": null,
+      "currency": "IDR",
+      "cardNumber": null,
+      "cardStatus": null,
+      "ordering": 7,
+      "isVisible": true,
+      "isSof": true,
+      "additionalData": "{\"accountNumberMasked\":\"*********7599\",\"currency\":\"IDR\",\"balanceTotal\":82018380101.99,\"balanceAvailable\":28017310101.99,\"balanceHold\":54001070000.00,\"dateOpen\":1276707600000,\"productName\":null,\"ownerName\":\"NASABAH SAVING\",\"rate\":0.0425}",
+      "accountAlias": "Tabungan UI SA",
+      "balance": 82018380101.99,
+      "isPrimary": false,
+      "accountOwnerName": null,
+      "accountLinking": null,
+      "accountIndex": 3,
+      "userProfileId": 345
+    },
+    {
+      "accountNumber": "1401300597593",
+      "accountStatus": 0,
+      "accountType": "SA",
+      "productName": "Tabungan UI SA",
+      "productType": "UI",
+      "productCode": null,
+      "currency": "IDR",
+      "cardNumber": null,
+      "cardStatus": null,
+      "ordering": 2,
+      "isVisible": true,
+      "isSof": true,
+      "additionalData": "{\"accountNumberMasked\":\"*********7593\",\"currency\":\"IDR\",\"balanceTotal\":82018380101.99,\"balanceAvailable\":28017310101.99,\"balanceHold\":54001070000.00,\"dateOpen\":1276707600000,\"productName\":null,\"ownerName\":\"NASABAH SAVING\",\"rate\":0.0425}",
+      "accountAlias": "Tabungan UI SA",
+      "balance": 82018380101.99,
+      "isPrimary": false,
+      "accountOwnerName": null,
+      "accountLinking": null,
+      "accountIndex": 4,
+      "userProfileId": 345
+    },
+    {
+      "accountNumber": "1401300597594",
+      "accountStatus": 0,
+      "accountType": "SA",
+      "productName": "Tabungan UI SA",
+      "productType": "UI",
+      "productCode": null,
+      "currency": "IDR",
+      "cardNumber": null,
+      "cardStatus": null,
+      "ordering": 1,
+      "isVisible": true,
+      "isSof": true,
+      "additionalData": "{\"accountNumberMasked\":\"*********7594\",\"currency\":\"IDR\",\"balanceTotal\":82018380101.99,\"balanceAvailable\":28017310101.99,\"balanceHold\":54001070000.00,\"dateOpen\":1276707600000,\"productName\":null,\"ownerName\":\"NASABAH SAVING\",\"rate\":0.0425}",
+      "accountAlias": "Tabungan UI SA",
+      "balance": 82018380101.99,
+      "isPrimary": false,
+      "accountOwnerName": null,
+      "accountLinking": null,
+      "accountIndex": 5,
+      "userProfileId": 345
+    },
+    {
+      "accountNumber": "1401300597591",
+      "accountStatus": 0,
+      "accountType": "SA",
+      "productName": "Tabungan UI SA",
+      "productType": "UI",
+      "productCode": null,
+      "currency": "IDR",
+      "cardNumber": null,
+      "cardStatus": null,
+      "ordering": 3,
+      "isVisible": true,
+      "isSof": true,
+      "additionalData": "{\"accountNumberMasked\":\"*********7591\",\"currency\":\"IDR\",\"balanceTotal\":82018380101.99,\"balanceAvailable\":28017310101.99,\"balanceHold\":54001070000.00,\"dateOpen\":1276707600000,\"productName\":null,\"ownerName\":\"NASABAH SAVING\",\"rate\":0.0425}",
+      "accountAlias": "Tabungan UI SA",
+      "balance": 82018380101.99,
+      "isPrimary": false,
+      "accountOwnerName": null,
+      "accountLinking": null,
+      "accountIndex": 6,
+      "userProfileId": 345
+    },
+    {
+      "accountNumber": "1401300597595",
+      "accountStatus": 0,
+      "accountType": "SA",
+      "productName": "Tabungan UI SA",
+      "productType": "UI",
+      "productCode": null,
+      "currency": "IDR",
+      "cardNumber": null,
+      "cardStatus": null,
+      "ordering": 4,
+      "isVisible": true,
+      "isSof": true,
+      "additionalData": "{\"accountNumberMasked\":\"*********7595\",\"currency\":\"IDR\",\"balanceTotal\":82018380101.99,\"balanceAvailable\":28017310101.99,\"balanceHold\":54001070000.00,\"dateOpen\":1276707600000,\"productName\":null,\"ownerName\":\"NASABAH SAVING\",\"rate\":0.0425}",
+      "accountAlias": "Tabungan UI SA",
+      "balance": 82018380101.99,
+      "isPrimary": false,
+      "accountOwnerName": null,
+      "accountLinking": null,
+      "accountIndex": 7,
+      "userProfileId": 345
+    },
+    {
+      "accountNumber": "1401300597596",
+      "accountStatus": 0,
+      "accountType": "SA",
+      "productName": "Tabungan UI SA",
+      "productType": "UI",
+      "productCode": null,
+      "currency": "IDR",
+      "cardNumber": null,
+      "cardStatus": null,
+      "ordering": 5,
+      "isVisible": true,
+      "isSof": true,
+      "additionalData": "{\"accountNumberMasked\":\"*********7596\",\"currency\":\"IDR\",\"balanceTotal\":82018380101.99,\"balanceAvailable\":28017310101.99,\"balanceHold\":54001070000.00,\"dateOpen\":1276707600000,\"productName\":null,\"ownerName\":\"NASABAH SAVING\",\"rate\":0.0425}",
+      "accountAlias": "Tabungan UI SA",
+      "balance": 82018380101.99,
+      "isPrimary": false,
+      "accountOwnerName": null,
+      "accountLinking": null,
+      "accountIndex": 8,
+      "userProfileId": 345
+    },
+    {
+      "accountNumber": "1401300543211",
+      "accountStatus": 0,
+      "accountType": "SA",
+      "productName": "Tabungan UI SA",
+      "productType": "UI",
+      "productCode": null,
+      "currency": "IDR",
+      "cardNumber": null,
+      "cardStatus": null,
+      "ordering": null,
+      "isVisible": true,
+      "isSof": true,
+      "additionalData": "{\"accountNumberMasked\":\"*********3211\",\"currency\":\"IDR\",\"balanceTotal\":82018380101.99,\"balanceAvailable\":28017310101.99,\"balanceHold\":54001070000.00,\"dateOpen\":1276707600000,\"productName\":null,\"ownerName\":\"NASABAH SAVING\",\"rate\":0.0425}",
+      "accountAlias": "Tabungan UI SA",
+      "balance": 82018380101.99,
+      "isPrimary": false,
+      "accountOwnerName": null,
+      "accountLinking": null,
+      "accountIndex": 9,
+      "userProfileId": 345
+    },
+    {
+      "accountNumber": "14013000150777",
+      "accountStatus": 0,
+      "accountType": "CA",
+      "productName": "Tabungan UI SA",
+      "productType": "UI",
+      "productCode": null,
+      "currency": "IDR",
+      "cardNumber": null,
+      "cardStatus": null,
+      "ordering": 2,
+      "isVisible": true,
+      "isSof": true,
+      "additionalData": "{\"accountNumberMasked\":\"**********0777\",\"currency\":\"IDR\",\"balanceTotal\":82018380101.99,\"balanceAvailable\":28017310101.99,\"balanceHold\":54001070000.00,\"dateOpen\":1276707600000,\"productName\":null,\"ownerName\":\"NASABAH GIRO\",\"rate\":0.0425}",
+      "accountAlias": "Tabungan UI SA",
+      "balance": 82018380101.99,
+      "isPrimary": true,
+      "accountOwnerName": null,
+      "accountLinking": null,
+      "accountIndex": 10,
+      "userProfileId": 345
+    },
+    {
+      "accountNumber": "14013000150776",
+      "accountStatus": 0,
+      "accountType": "CA",
+      "productName": "Tabungan UI SA",
+      "productType": "UI",
+      "productCode": null,
+      "currency": "IDR",
+      "cardNumber": null,
+      "cardStatus": null,
+      "ordering": 1,
+      "isVisible": true,
+      "isSof": true,
+      "additionalData": "{\"accountNumberMasked\":\"**********0776\",\"currency\":\"IDR\",\"balanceTotal\":99018380101.99,\"balanceAvailable\":99017310101.99,\"balanceHold\":32001070000.00,\"dateOpen\":1276707600000,\"productName\":null,\"ownerName\":\"NASABAH Giro 2\",\"rate\":0.0425}",
+      "accountAlias": "Tabungan UI SA",
+      "balance": 99018380101.99,
+      "isPrimary": false,
+      "accountOwnerName": null,
+      "accountLinking": null,
+      "accountIndex": 11,
+      "userProfileId": 345
+    },
+    {
+      "accountNumber": "1401300597592",
+      "accountStatus": 0,
+      "accountType": "SA",
+      "productName": "Tabungan UI SA",
+      "productType": "UI",
+      "productCode": null,
+      "currency": "IDR",
+      "cardNumber": null,
+      "cardStatus": null,
+      "ordering": 10,
+      "isVisible": true,
+      "isSof": true,
+      "additionalData": "{\"accountNumberMasked\":\"*********7592\",\"currency\":\"IDR\",\"balanceTotal\":82018380101.99,\"balanceAvailable\":28017310101.99,\"balanceHold\":54001070000.00,\"dateOpen\":1276707600000,\"productName\":null,\"ownerName\":\"NASABAH SAVING\",\"rate\":0.0425}",
+      "accountAlias": "Tabungan UI SA",
+      "balance": 82018380101.99,
+      "isPrimary": false,
+      "accountOwnerName": null,
+      "accountLinking": null,
+      "accountIndex": 12,
+      "userProfileId": 345
+    }
+  ]
+}
+
+===============================================================================================================================================
+
 purchaseservice/getprevioustransactionhistory
 {
-  "totalData": 1,
+  "totalData": 5,
   "transactionCategory": "PURCHASE_PHONE"
 }
 
+response : 
+{
+  "transactionHistoryList": [
+    {
+      "transactionId": "TRX000000028701",
+      "transactionDate": 1656217045000,
+      "transactionCategory": "PURCHASE_PHONE",
+      "transactionGroup": 1,
+      "transactionDescription": "XL Pulsa",
+      "transactionCurrency": "IDR",
+      "transactionAmount": 0,
+      "transactionFee": 0,
+      "fromAccountNumber": "",
+      "fromAccountType": "",
+      "fromAccountOwnerName": "",
+      "toAccountNumber": null,
+      "toAccountType": null,
+      "toAccountOwnerName": null,
+      "beneficiaryNumber": "1",
+      "beneficiaryOwnerName": null,
+      "billerName": "XL Pulsa",
+      "payeeCode": "PN001008",
+      "refNo": "",
+      "additionalData": "",
+      "inquiryRequestData": "{\"channelCode\":\"MB\",\"template\":[{\"lineNum\":1,\"fieldKey\":\"SOF\",\"fieldType\":\"LISTSOF\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Select Source of Amount\",\"placeholderId\":\"Pilih Rekening Sumber Dana\",\"labelEn\":\"Source Of Amount\",\"labelId\":\"Rekening Sumber Dana\",\"inputType\":\"Y\",\"value\":\"0\"},{\"lineNum\":2,\"fieldKey\":\"CUSTNO\",\"fieldType\":\"TEXTNUM\",\"minFieldLength\":1,\"maxFieldLength\":15,\"placeholderEn\":\"Phone Number\",\"placeholderId\":\"Nomor Telepon\",\"labelEn\":\"Phone Number :\",\"labelId\":\"No Telp/HP :\",\"inputType\":\"Y\",\"value\":\"1\"},{\"lineNum\":3,\"fieldKey\":\"AMOUNT\",\"fieldType\":\"LISTPACKETDATA\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Product\",\"placeholderId\":\"Produk\",\"labelEn\":\"Product\",\"labelId\":\"Produk\",\"inputType\":\"Y\",\"value\":\"1000000\"},{\"lineNum\":4,\"fieldKey\":\"PAYEECODE\",\"fieldType\":\"NONE\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"\",\"placeholderId\":\"\",\"labelEn\":\"\",\"labelId\":\"\",\"inputType\":\"Y\",\"value\":\"PN001008\"}]}"
+    },
+    {
+      "transactionId": "TRX000000028675",
+      "transactionDate": 1656214248000,
+      "transactionCategory": "PURCHASE_PHONE",
+      "transactionGroup": 1,
+      "transactionDescription": "XL Pulsa",
+      "transactionCurrency": "IDR",
+      "transactionAmount": 0,
+      "transactionFee": 0,
+      "fromAccountNumber": "",
+      "fromAccountType": "",
+      "fromAccountOwnerName": "",
+      "toAccountNumber": null,
+      "toAccountType": null,
+      "toAccountOwnerName": null,
+      "beneficiaryNumber": "1",
+      "beneficiaryOwnerName": null,
+      "billerName": "XL Pulsa",
+      "payeeCode": "PN001008",
+      "refNo": "",
+      "additionalData": "",
+      "inquiryRequestData": "{\"channelCode\":\"MB\",\"template\":[{\"lineNum\":1,\"fieldKey\":\"SOF\",\"fieldType\":\"LISTSOF\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Select Source of Amount\",\"placeholderId\":\"Pilih Rekening Sumber Dana\",\"labelEn\":\"Source Of Amount\",\"labelId\":\"Rekening Sumber Dana\",\"inputType\":\"Y\",\"value\":\"0\"},{\"lineNum\":2,\"fieldKey\":\"CUSTNO\",\"fieldType\":\"TEXTNUM\",\"minFieldLength\":1,\"maxFieldLength\":15,\"placeholderEn\":\"Phone Number\",\"placeholderId\":\"Nomor Telepon\",\"labelEn\":\"Phone Number :\",\"labelId\":\"No Telp/HP :\",\"inputType\":\"Y\",\"value\":\"1\"},{\"lineNum\":3,\"fieldKey\":\"AMOUNT\",\"fieldType\":\"LISTPACKETDATA\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Product\",\"placeholderId\":\"Produk\",\"labelEn\":\"Product\",\"labelId\":\"Produk\",\"inputType\":\"Y\",\"value\":\"10000\"},{\"lineNum\":4,\"fieldKey\":\"PAYEECODE\",\"fieldType\":\"NONE\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"\",\"placeholderId\":\"\",\"labelEn\":\"\",\"labelId\":\"\",\"inputType\":\"Y\",\"value\":\"PN001008\"}],\"menuId\":9}"
+    },
+    {
+      "transactionId": "TRX000000028674",
+      "transactionDate": 1656214235000,
+      "transactionCategory": "PURCHASE_PHONE",
+      "transactionGroup": 1,
+      "transactionDescription": "XL Pulsa",
+      "transactionCurrency": "IDR",
+      "transactionAmount": 0,
+      "transactionFee": 0,
+      "fromAccountNumber": "",
+      "fromAccountType": "",
+      "fromAccountOwnerName": "",
+      "toAccountNumber": null,
+      "toAccountType": null,
+      "toAccountOwnerName": null,
+      "beneficiaryNumber": "1",
+      "beneficiaryOwnerName": null,
+      "billerName": "XL Pulsa",
+      "payeeCode": "PN001008",
+      "refNo": "",
+      "additionalData": "",
+      "inquiryRequestData": "{\"channelCode\":\"MB\",\"template\":[{\"lineNum\":1,\"fieldKey\":\"SOF\",\"fieldType\":\"LISTSOF\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Select Source of Amount\",\"placeholderId\":\"Pilih Rekening Sumber Dana\",\"labelEn\":\"Source Of Amount\",\"labelId\":\"Rekening Sumber Dana\",\"inputType\":\"Y\",\"value\":\"0\"},{\"lineNum\":2,\"fieldKey\":\"CUSTNO\",\"fieldType\":\"TEXTNUM\",\"minFieldLength\":1,\"maxFieldLength\":15,\"placeholderEn\":\"Phone Number\",\"placeholderId\":\"Nomor Telepon\",\"labelEn\":\"Phone Number :\",\"labelId\":\"No Telp/HP :\",\"inputType\":\"Y\",\"value\":\"1\"},{\"lineNum\":3,\"fieldKey\":\"AMOUNT\",\"fieldType\":\"LISTPACKETDATA\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Product\",\"placeholderId\":\"Produk\",\"labelEn\":\"Product\",\"labelId\":\"Produk\",\"inputType\":\"Y\",\"value\":\"10000\"},{\"lineNum\":4,\"fieldKey\":\"PAYEECODE\",\"fieldType\":\"NONE\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"\",\"placeholderId\":\"\",\"labelEn\":\"\",\"labelId\":\"\",\"inputType\":\"Y\",\"value\":\"PN001008\"}],\"menuId\":9}"
+    },
+    {
+      "transactionId": "TRX000000028673",
+      "transactionDate": 1656214049000,
+      "transactionCategory": "PURCHASE_PHONE",
+      "transactionGroup": 1,
+      "transactionDescription": "XL Pulsa",
+      "transactionCurrency": "IDR",
+      "transactionAmount": 0,
+      "transactionFee": 0,
+      "fromAccountNumber": "",
+      "fromAccountType": "",
+      "fromAccountOwnerName": "",
+      "toAccountNumber": null,
+      "toAccountType": null,
+      "toAccountOwnerName": null,
+      "beneficiaryNumber": "1",
+      "beneficiaryOwnerName": null,
+      "billerName": "XL Pulsa",
+      "payeeCode": "PN001008",
+      "refNo": "",
+      "additionalData": "",
+      "inquiryRequestData": "{\"channelCode\":\"MB\",\"template\":[{\"lineNum\":1,\"fieldKey\":\"SOF\",\"fieldType\":\"LISTSOF\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Select Source of Amount\",\"placeholderId\":\"Pilih Rekening Sumber Dana\",\"labelEn\":\"Source Of Amount\",\"labelId\":\"Rekening Sumber Dana\",\"inputType\":\"Y\",\"value\":\"0\"},{\"lineNum\":2,\"fieldKey\":\"CUSTNO\",\"fieldType\":\"TEXTNUM\",\"minFieldLength\":1,\"maxFieldLength\":15,\"placeholderEn\":\"Phone Number\",\"placeholderId\":\"Nomor Telepon\",\"labelEn\":\"Phone Number :\",\"labelId\":\"No Telp/HP :\",\"inputType\":\"Y\",\"value\":\"1\"},{\"lineNum\":3,\"fieldKey\":\"AMOUNT\",\"fieldType\":\"LISTPACKETDATA\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Product\",\"placeholderId\":\"Produk\",\"labelEn\":\"Product\",\"labelId\":\"Produk\",\"inputType\":\"Y\",\"value\":\"10000\"},{\"lineNum\":4,\"fieldKey\":\"PAYEECODE\",\"fieldType\":\"NONE\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"\",\"placeholderId\":\"\",\"labelEn\":\"\",\"labelId\":\"\",\"inputType\":\"Y\",\"value\":\"PN001008\"}],\"menuId\":9}"
+    },
+    {
+      "transactionId": "TRX000000028672",
+      "transactionDate": 1656214038000,
+      "transactionCategory": "PURCHASE_PHONE",
+      "transactionGroup": 1,
+      "transactionDescription": "XL Pulsa",
+      "transactionCurrency": "IDR",
+      "transactionAmount": 0,
+      "transactionFee": 0,
+      "fromAccountNumber": "",
+      "fromAccountType": "",
+      "fromAccountOwnerName": "",
+      "toAccountNumber": null,
+      "toAccountType": null,
+      "toAccountOwnerName": null,
+      "beneficiaryNumber": "1",
+      "beneficiaryOwnerName": null,
+      "billerName": "XL Pulsa",
+      "payeeCode": "PN001008",
+      "refNo": "",
+      "additionalData": "",
+      "inquiryRequestData": "{\"channelCode\":\"MB\",\"template\":[{\"lineNum\":1,\"fieldKey\":\"SOF\",\"fieldType\":\"LISTSOF\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Select Source of Amount\",\"placeholderId\":\"Pilih Rekening Sumber Dana\",\"labelEn\":\"Source Of Amount\",\"labelId\":\"Rekening Sumber Dana\",\"inputType\":\"Y\",\"value\":\"0\"},{\"lineNum\":2,\"fieldKey\":\"CUSTNO\",\"fieldType\":\"TEXTNUM\",\"minFieldLength\":1,\"maxFieldLength\":15,\"placeholderEn\":\"Phone Number\",\"placeholderId\":\"Nomor Telepon\",\"labelEn\":\"Phone Number :\",\"labelId\":\"No Telp/HP :\",\"inputType\":\"Y\",\"value\":\"1\"},{\"lineNum\":3,\"fieldKey\":\"AMOUNT\",\"fieldType\":\"LISTPACKETDATA\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Product\",\"placeholderId\":\"Produk\",\"labelEn\":\"Product\",\"labelId\":\"Produk\",\"inputType\":\"Y\",\"value\":\"10000\"},{\"lineNum\":4,\"fieldKey\":\"PAYEECODE\",\"fieldType\":\"NONE\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"\",\"placeholderId\":\"\",\"labelEn\":\"\",\"labelId\":\"\",\"inputType\":\"Y\",\"value\":\"PN001008\"}],\"menuId\":9}"
+    }
+  ]
+}
+
+========================================================================================================================================================================
 purchaseservice/getbillerlist
 {
   "billerCategory": "104"
 }
+
+response :
+{
+  "billerDtoList": [
+    {
+      "billerName": "Indosat Ooredo Data",
+      "payeeCode": "PN001001",
+      "paymentHandler": 1,
+      "transactionGroup": 1,
+      "transactionCategory": "PURCHASE_PHONE",
+      "nextState": "INQUIRY",
+      "binList": [],
+      "prefixList": [
+        62814,
+        62815,
+        62816,
+        62855,
+        62856,
+        62857,
+        62858
+      ],
+      "denomList": [
+        {
+          "denomValue": "Kuota 28GB-1GB/HR",
+          "labelId": "Kuota 28GB-1GB/HR",
+          "labelEn": "Kuota 28GB-1GB/HR",
+          "category": "LISTPACKETDATA",
+          "noOrder": 1
+        },
+        {
+          "denomValue": "Kuota 28GB-1GB/HR",
+          "labelId": "Kuota 28GB-1GB/HR",
+          "labelEn": "Kuota 28GB-1GB/HR",
+          "category": "LISTPACKETDATA",
+          "noOrder": 1
+        },
+        {
+          "denomValue": "FREEDOMINET 4GB",
+          "labelId": "FREEDOMINET 4GB",
+          "labelEn": "FREEDOMINET 4GB",
+          "category": "LISTPACKETDATA",
+          "noOrder": 2
+        },
+        {
+          "denomValue": "FREEDOMINET 4GB",
+          "labelId": "FREEDOMINET 4GB",
+          "labelEn": "FREEDOMINET 4GB",
+          "category": "LISTPACKETDATA",
+          "noOrder": 2
+        },
+        {
+          "denomValue": "FREEDOMINET 10GB",
+          "labelId": "FREEDOMINET 10GB",
+          "labelEn": "FREEDOMINET 10GB",
+          "category": "LISTPACKETDATA",
+          "noOrder": 3
+        },
+        {
+          "denomValue": "FREEDOMINET 21GB/30HR+3GB",
+          "labelId": "FREEDOMINET 21GB/30HR+3GB",
+          "labelEn": "FREEDOMINET 21GB/30HR+3GB",
+          "category": "LISTPACKETDATA",
+          "noOrder": 4
+        },
+        {
+          "denomValue": "FREEDOMINET 32GB/30HR+5GB",
+          "labelId": "FREEDOMINET 32GB/30HR+5GB",
+          "labelEn": "FREEDOMINET 32GB/30HR+5GB",
+          "category": "LISTPACKETDATA",
+          "noOrder": 5
+        },
+        {
+          "denomValue": "FREEDOMCOMBO 4GB",
+          "labelId": "FREEDOMCOMBO 4GB",
+          "labelEn": "FREEDOMCOMBO 4GB",
+          "category": "LISTPACKETDATA",
+          "noOrder": 6
+        },
+        {
+          "denomValue": "FREEDOMCOMBO 8GB",
+          "labelId": "FREEDOMCOMBO 8GB",
+          "labelEn": "FREEDOMCOMBO 8GB",
+          "category": "LISTPACKETDATA",
+          "noOrder": 7
+        },
+        {
+          "denomValue": "FREEDOMCOMBO 14GB",
+          "labelId": "FREEDOMCOMBO 14GB",
+          "labelEn": "FREEDOMCOMBO 14GB",
+          "category": "LISTPACKETDATA",
+          "noOrder": 8
+        },
+        {
+          "denomValue": "FREEDOMCOMBO 20GB",
+          "labelId": "FREEDOMCOMBO 20GB",
+          "labelEn": "FREEDOMCOMBO 20GB",
+          "category": "LISTPACKETDATA",
+          "noOrder": 9
+        },
+        {
+          "denomValue": "FREEDOMCOMBO 30GB",
+          "labelId": "FREEDOMCOMBO 30GB",
+          "labelEn": "FREEDOMCOMBO 30GB",
+          "category": "LISTPACKETDATA",
+          "noOrder": 10
+        },
+        {
+          "denomValue": "FREEDOMCOMBO 50GB",
+          "labelId": "FREEDOMCOMBO 50GB",
+          "labelEn": "FREEDOMCOMBO 50GB",
+          "category": "LISTPACKETDATA",
+          "noOrder": 11
+        },
+        {
+          "denomValue": "FREEDOMCOMBU 1GB+4.5GBAPPS",
+          "labelId": "FREEDOMCOMBU 1GB+4.5GBAPPS",
+          "labelEn": "FREEDOMCOMBU 1GB+4.5GBAPPS",
+          "category": "LISTPACKETDATA",
+          "noOrder": 12
+        },
+        {
+          "denomValue": "FREEDOMCOMBU 2GB+7.5GBAPPS",
+          "labelId": "FREEDOMCOMBU 2GB+7.5GBAPPS",
+          "labelEn": "FREEDOMCOMBU 2GB+7.5GBAPPS",
+          "category": "LISTPACKETDATA",
+          "noOrder": 13
+        },
+        {
+          "denomValue": "FREEDOMCOMBU 3GB+15GBAPPS",
+          "labelId": "FREEDOMCOMBU 3GB+15GBAPPS",
+          "labelEn": "FREEDOMCOMBU 3GB+15GBAPPS",
+          "category": "LISTPACKETDATA",
+          "noOrder": 14
+        },
+        {
+          "denomValue": "FREEDOMCOMBU 7GB+20GBAPPS",
+          "labelId": "FREEDOMCOMBU 7GB+20GBAPPS",
+          "labelEn": "FREEDOMCOMBU 7GB+20GBAPPS",
+          "category": "LISTPACKETDATA",
+          "noOrder": 15
+        },
+        {
+          "denomValue": "FREEDOMCOMBU 10GB+25GBAPPS",
+          "labelId": "FREEDOMCOMBU 10GB+25GBAPPS",
+          "labelEn": "FREEDOMCOMBU 10GB+25GBAPPS",
+          "category": "LISTPACKETDATA",
+          "noOrder": 16
+        },
+        {
+          "denomValue": "FREEDOMCOMBUJUMBO",
+          "labelId": "FREEDOMCOMBUJUMBO",
+          "labelEn": "FREEDOMCOMBUJUMBO",
+          "category": "LISTPACKETDATA",
+          "noOrder": 17
+        },
+        {
+          "denomValue": "ROAM 1GB 20 COUNTRY 3D",
+          "labelId": "ROAM 1GB 20 COUNTRY 3D",
+          "labelEn": "ROAM 1GB 20 COUNTRY 3D",
+          "category": "LISTPACKETDATA",
+          "noOrder": 18
+        },
+        {
+          "denomValue": "ROAM 2,5GB 20 COUNTRY 7D",
+          "labelId": "ROAM 2,5GB 20 COUNTRY 7D",
+          "labelEn": "ROAM 2,5GB 20 COUNTRY 7D",
+          "category": "LISTPACKETDATA",
+          "noOrder": 19
+        },
+        {
+          "denomValue": "ROAM UNLIMITED 20 COUNTRY 3D",
+          "labelId": "ROAM UNLIMITED 20 COUNTRY 3D",
+          "labelEn": "ROAM UNLIMITED 20 COUNTRY 3D",
+          "category": "LISTPACKETDATA",
+          "noOrder": 20
+        },
+        {
+          "denomValue": "ROAM UNLIMITED 20 COUNTRY 7D",
+          "labelId": "ROAM UNLIMITED 20 COUNTRY 7D",
+          "labelEn": "ROAM UNLIMITED 20 COUNTRY 7D",
+          "category": "LISTPACKETDATA",
+          "noOrder": 21
+        }
+      ],
+      "templateList": [
+        {
+          "lineNum": 1,
+          "fieldKey": "SOF",
+          "fieldType": "LISTSOF",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Select Source of Amount",
+          "placeholderId": "Pilih Rekening Sumber Dana",
+          "labelEn": "Source Of Amount",
+          "labelId": "Rekening Sumber Dana",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 2,
+          "fieldKey": "CUSTNO",
+          "fieldType": "TEXTNUM",
+          "minFieldLength": 1,
+          "maxFieldLength": 15,
+          "placeholderEn": "Phone Number",
+          "placeholderId": "Nomor Telepon",
+          "labelEn": "Phone Number :",
+          "labelId": "No Telp/HP :",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 3,
+          "fieldKey": "AMOUNT",
+          "fieldType": "LISTPACKETDATA",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Product",
+          "placeholderId": "Produk",
+          "labelEn": "Product",
+          "labelId": "Produk",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 4,
+          "fieldKey": "PAYEECODE",
+          "fieldType": "NONE",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "",
+          "placeholderId": "",
+          "labelEn": "",
+          "labelId": "",
+          "inputType": "Y",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "billerName": "Indosat Ooredo Pulsa",
+      "payeeCode": "PN001004",
+      "paymentHandler": 1,
+      "transactionGroup": 1,
+      "transactionCategory": "PURCHASE_PHONE",
+      "nextState": "INQUIRY",
+      "binList": [],
+      "prefixList": [
+        62814,
+        62815,
+        62816,
+        62855,
+        62856,
+        62857,
+        62858
+      ],
+      "denomList": [
+        {
+          "denomValue": "25000",
+          "labelId": "25.000",
+          "labelEn": "25.000",
+          "category": "LISTPREPAID",
+          "noOrder": 1
+        },
+        {
+          "denomValue": "50000",
+          "labelId": "50.000",
+          "labelEn": "50.000",
+          "category": "LISTPREPAID",
+          "noOrder": 2
+        },
+        {
+          "denomValue": "100000",
+          "labelId": "100.000",
+          "labelEn": "100.000",
+          "category": "LISTPREPAID",
+          "noOrder": 3
+        },
+        {
+          "denomValue": "150000",
+          "labelId": "150.000",
+          "labelEn": "150.000",
+          "category": "LISTPREPAID",
+          "noOrder": 4
+        },
+        {
+          "denomValue": "200000",
+          "labelId": "200.000",
+          "labelEn": "200.000",
+          "category": "LISTPREPAID",
+          "noOrder": 5
+        },
+        {
+          "denomValue": "250000",
+          "labelId": "250.000",
+          "labelEn": "250.000",
+          "category": "LISTPREPAID",
+          "noOrder": 6
+        },
+        {
+          "denomValue": "500000",
+          "labelId": "500.000",
+          "labelEn": "500.000",
+          "category": "LISTPREPAID",
+          "noOrder": 7
+        },
+        {
+          "denomValue": "1000000",
+          "labelId": "1.000.000",
+          "labelEn": "1.000.000",
+          "category": "LISTPREPAID",
+          "noOrder": 8
+        }
+      ],
+      "templateList": [
+        {
+          "lineNum": 1,
+          "fieldKey": "SOF",
+          "fieldType": "LISTSOF",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Select Source of Amount",
+          "placeholderId": "Pilih Rekening Sumber Dana",
+          "labelEn": "Source Of Amount",
+          "labelId": "Rekening Sumber Dana",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 2,
+          "fieldKey": "CUSTNO",
+          "fieldType": "TEXTNUM",
+          "minFieldLength": 1,
+          "maxFieldLength": 15,
+          "placeholderEn": "Phone Number",
+          "placeholderId": "Nomor Telepon",
+          "labelEn": "Phone Number :",
+          "labelId": "No Telp/HP :",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 3,
+          "fieldKey": "AMOUNT",
+          "fieldType": "LISTPREPAID",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Product",
+          "placeholderId": "Produk",
+          "labelEn": "Product",
+          "labelId": "Produk",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 4,
+          "fieldKey": "PAYEECODE",
+          "fieldType": "NONE",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "",
+          "placeholderId": "",
+          "labelEn": "",
+          "labelId": "",
+          "inputType": "Y",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "billerName": "Smartfren Pulsa",
+      "payeeCode": "PN001005",
+      "paymentHandler": 1,
+      "transactionGroup": 1,
+      "transactionCategory": "PURCHASE_PHONE",
+      "nextState": "INQUIRY",
+      "binList": [],
+      "prefixList": [
+        62881,
+        62882,
+        62883,
+        62884,
+        62888
+      ],
+      "denomList": [
+        {
+          "denomValue": "25000",
+          "labelId": "25.000",
+          "labelEn": "25.000",
+          "category": "LISTPREPAID",
+          "noOrder": 1
+        },
+        {
+          "denomValue": "50000",
+          "labelId": "50.000",
+          "labelEn": "50.000",
+          "category": "LISTPREPAID",
+          "noOrder": 2
+        },
+        {
+          "denomValue": "100000",
+          "labelId": "100.000",
+          "labelEn": "100.000",
+          "category": "LISTPREPAID",
+          "noOrder": 3
+        },
+        {
+          "denomValue": "200000",
+          "labelId": "200.000",
+          "labelEn": "200.000",
+          "category": "LISTPREPAID",
+          "noOrder": 5
+        },
+        {
+          "denomValue": "500000",
+          "labelId": "300.000",
+          "labelEn": "300.000",
+          "category": "LISTPREPAID",
+          "noOrder": 6
+        }
+      ],
+      "templateList": [
+        {
+          "lineNum": 1,
+          "fieldKey": "SOF",
+          "fieldType": "LISTSOF",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Select Source of Amount",
+          "placeholderId": "Pilih Rekening Sumber Dana",
+          "labelEn": "Source Of Amount",
+          "labelId": "Rekening Sumber Dana",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 2,
+          "fieldKey": "CUSTNO",
+          "fieldType": "TEXTNUM",
+          "minFieldLength": 1,
+          "maxFieldLength": 15,
+          "placeholderEn": "Phone Number",
+          "placeholderId": "Nomor Telepon",
+          "labelEn": "Phone Number :",
+          "labelId": "No Telp/HP :",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 3,
+          "fieldKey": "AMOUNT",
+          "fieldType": "LISTPREPAID",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Product",
+          "placeholderId": "Produk",
+          "labelEn": "Product",
+          "labelId": "Produk",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 4,
+          "fieldKey": "PAYEECODE",
+          "fieldType": "NONE",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "",
+          "placeholderId": "",
+          "labelEn": "",
+          "labelId": "",
+          "inputType": "Y",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "billerName": "Telkomsel Data",
+      "payeeCode": "PN001002",
+      "paymentHandler": 1,
+      "transactionGroup": 1,
+      "transactionCategory": "PURCHASE_PHONE",
+      "nextState": "INQUIRY",
+      "binList": [],
+      "prefixList": [
+        62853,
+        62811,
+        62813,
+        62821,
+        62822,
+        62851,
+        62812,
+        62852,
+        62823
+      ],
+      "denomList": [
+        {
+          "denomValue": "010033|100000",
+          "labelId": "Internet Combo 100K (IOG + 100 menit On Net + 100 SMS On Net)",
+          "labelEn": "Internet Combo 100K (IOG + 100 menit On Net + 100 SMS On Net)",
+          "category": "LISTPACKETDATA",
+          "noOrder": 1
+        },
+        {
+          "denomValue": "010035|25000",
+          "labelId": "Voice 25K (550 Menit on net + 50 Menit All Operator)",
+          "labelEn": "Voice 25K (550 Menit on net + 50 Menit All Operator)",
+          "category": "LISTPACKETDATA",
+          "noOrder": 1
+        },
+        {
+          "denomValue": "010017|25000",
+          "labelId": "Gamemax 25K (1 GB All Network + 2GB DPI + 1 Game Voucher)",
+          "labelEn": "Gamemax 25K (1 GB All Network + 2GB DPI + 1 Game Voucher)",
+          "category": "LISTPACKETDATA",
+          "noOrder": 1
+        },
+        {
+          "denomValue": "010050|25000",
+          "labelId": "Musicmax 25K (1 Gb DPI + 1 GB All Network)",
+          "labelEn": "Musicmax 25K (1 Gb DPI + 1 GB All Network)",
+          "category": "LISTPACKETDATA",
+          "noOrder": 1
+        },
+        {
+          "denomValue": "010006|20000",
+          "labelId": "Pulsa Internet 20K(sesuai zona)",
+          "labelEn": "Pulsa Internet 20K(sesuai zona)",
+          "category": "LISTPACKETDATA",
+          "noOrder": 1
+        },
+        {
+          "denomValue": "010045|100000",
+          "labelId": "Videomax 100K (15GB-30 Hari[HBO Go, VIU, HOOQ, Maxstream)",
+          "labelEn": "Videomax 100K (15GB-30 Hari[HBO Go, VIU, HOOQ, Maxstream)",
+          "category": "LISTPACKETDATA",
+          "noOrder": 1
+        },
+        {
+          "denomValue": "010006|25000",
+          "labelId": "Pulsa Internet 25K(sesuai zona)",
+          "labelEn": "Pulsa Internet 25K(sesuai zona)",
+          "category": "LISTPACKETDATA",
+          "noOrder": 2
+        },
+        {
+          "denomValue": "010045|150000",
+          "labelId": "Videomax 150K (15GB-30 Hari[HBO Go, VIU, HOOQ, Maxstream)",
+          "labelEn": "Videomax 150K (15GB-30 Hari[HBO Go, VIU, HOOQ, Maxstream)",
+          "category": "LISTPACKETDATA",
+          "noOrder": 2
+        },
+        {
+          "denomValue": "010006|50000",
+          "labelId": "Pulsa Internet 50K(sesuai zona)",
+          "labelEn": "Pulsa Internet 50K(sesuai zona)",
+          "category": "LISTPACKETDATA",
+          "noOrder": 3
+        },
+        {
+          "denomValue": "010006|100000",
+          "labelId": "Pulsa Internet 100K(12 GB)",
+          "labelEn": "Pulsa Internet 100K(12 GB)",
+          "category": "LISTPACKETDATA",
+          "noOrder": 4
+        },
+        {
+          "denomValue": "010006|100000",
+          "labelId": "Pulsa Internet 150K(sesuai zona)",
+          "labelEn": "Pulsa Internet 150K(sesuai zona)",
+          "category": "LISTPACKETDATA",
+          "noOrder": 5
+        },
+        {
+          "denomValue": "010006|200000",
+          "labelId": "Paket Pulsa Internet 200K(50 GB)",
+          "labelEn": "Paket Pulsa Internet 200K(50 GB)",
+          "category": "LISTPACKETDATA",
+          "noOrder": 6
+        },
+        {
+          "denomValue": "010006|300000",
+          "labelId": "Paket Pulsa Internet 300K(sesuai zona)",
+          "labelEn": "Paket Pulsa Internet 30K(sesuai zona)",
+          "category": "LISTPACKETDATA",
+          "noOrder": 7
+        }
+      ],
+      "templateList": [
+        {
+          "lineNum": 1,
+          "fieldKey": "SOF",
+          "fieldType": "LISTSOF",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Select Source of Amount",
+          "placeholderId": "Pilih Rekening Sumber Dana",
+          "labelEn": "Source Of Amount",
+          "labelId": "Rekening Sumber Dana",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 2,
+          "fieldKey": "CUSTNO",
+          "fieldType": "TEXTNUM",
+          "minFieldLength": 1,
+          "maxFieldLength": 15,
+          "placeholderEn": "Phone Number",
+          "placeholderId": "Nomor Telepon",
+          "labelEn": "Phone Number :",
+          "labelId": "No Telp/HP :",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 3,
+          "fieldKey": "PRODUCTINDICATOR",
+          "fieldType": "LISTPACKETDATA",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Product",
+          "placeholderId": "Produk",
+          "labelEn": "Product",
+          "labelId": "Produk",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 4,
+          "fieldKey": "PAYEECODE",
+          "fieldType": "NONE",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "",
+          "placeholderId": "",
+          "labelEn": "",
+          "labelId": "",
+          "inputType": "Y",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "billerName": "Telkomsel Pulsa",
+      "payeeCode": "PN001006",
+      "paymentHandler": 1,
+      "transactionGroup": 1,
+      "transactionCategory": "PURCHASE_PHONE",
+      "nextState": "INQUIRY",
+      "binList": [],
+      "prefixList": [
+        62853,
+        62811,
+        62813,
+        62821,
+        62822,
+        62851,
+        62812,
+        62852,
+        62823
+      ],
+      "denomList": [
+        {
+          "denomValue": "15000",
+          "labelId": "15.000",
+          "labelEn": "15.000",
+          "category": "LISTPREPAID",
+          "noOrder": 1
+        },
+        {
+          "denomValue": "20000",
+          "labelId": "20.000",
+          "labelEn": "20.000",
+          "category": "LISTPREPAID",
+          "noOrder": 2
+        },
+        {
+          "denomValue": "25000",
+          "labelId": "25.000",
+          "labelEn": "25.000",
+          "category": "LISTPREPAID",
+          "noOrder": 3
+        },
+        {
+          "denomValue": "30000",
+          "labelId": "30.000",
+          "labelEn": "30.000",
+          "category": "LISTPREPAID",
+          "noOrder": 4
+        },
+        {
+          "denomValue": "40000",
+          "labelId": "40.000",
+          "labelEn": "40.000",
+          "category": "LISTPREPAID",
+          "noOrder": 5
+        },
+        {
+          "denomValue": "50000",
+          "labelId": "50.000",
+          "labelEn": "50.000",
+          "category": "LISTPREPAID",
+          "noOrder": 6
+        },
+        {
+          "denomValue": "75000",
+          "labelId": "75.000",
+          "labelEn": "75.000",
+          "category": "LISTPREPAID",
+          "noOrder": 7
+        },
+        {
+          "denomValue": "100000",
+          "labelId": "100.000",
+          "labelEn": "100.000",
+          "category": "LISTPREPAID",
+          "noOrder": 8
+        },
+        {
+          "denomValue": "150000",
+          "labelId": "150.000",
+          "labelEn": "150.000",
+          "category": "LISTPREPAID",
+          "noOrder": 9
+        },
+        {
+          "denomValue": "200000",
+          "labelId": "200.000",
+          "labelEn": "200.000",
+          "category": "LISTPREPAID",
+          "noOrder": 10
+        },
+        {
+          "denomValue": "300000",
+          "labelId": "300.000",
+          "labelEn": "300.000",
+          "category": "LISTPREPAID",
+          "noOrder": 11
+        },
+        {
+          "denomValue": "500000",
+          "labelId": "500.000",
+          "labelEn": "500.000",
+          "category": "LISTPREPAID",
+          "noOrder": 12
+        },
+        {
+          "denomValue": "1000000",
+          "labelId": "1.000.000",
+          "labelEn": "1.000.000",
+          "category": "LISTPREPAID",
+          "noOrder": 13
+        }
+      ],
+      "templateList": [
+        {
+          "lineNum": 1,
+          "fieldKey": "SOF",
+          "fieldType": "LISTSOF",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Select Source of Amount",
+          "placeholderId": "Pilih Rekening Sumber Dana",
+          "labelEn": "Source Of Amount",
+          "labelId": "Rekening Sumber Dana",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 2,
+          "fieldKey": "CUSTNO",
+          "fieldType": "TEXTNUM",
+          "minFieldLength": 1,
+          "maxFieldLength": 15,
+          "placeholderEn": "Phone Number",
+          "placeholderId": "Nomor Telepon",
+          "labelEn": "Phone Number :",
+          "labelId": "No Telp/HP :",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 3,
+          "fieldKey": "AMOUNT",
+          "fieldType": "LISTPREPAID",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Product",
+          "placeholderId": "Produk",
+          "labelEn": "Product",
+          "labelId": "Produk",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 4,
+          "fieldKey": "PAYEECODE",
+          "fieldType": "NONE",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "",
+          "placeholderId": "",
+          "labelEn": "",
+          "labelId": "",
+          "inputType": "Y",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "billerName": "Three Pulsa",
+      "payeeCode": "PN001007",
+      "paymentHandler": 1,
+      "transactionGroup": 1,
+      "transactionCategory": "PURCHASE_PHONE",
+      "nextState": "INQUIRY",
+      "binList": [],
+      "prefixList": [
+        62896,
+        62897,
+        62898,
+        62899
+      ],
+      "denomList": [
+        {
+          "denomValue": "20000",
+          "labelId": "20.000",
+          "labelEn": "20.000",
+          "category": "LISTPREPAID",
+          "noOrder": 1
+        },
+        {
+          "denomValue": "30000",
+          "labelId": "30.000",
+          "labelEn": "30.000",
+          "category": "LISTPREPAID",
+          "noOrder": 2
+        },
+        {
+          "denomValue": "40000",
+          "labelId": "40.000",
+          "labelEn": "40.000",
+          "category": "LISTPREPAID",
+          "noOrder": 3
+        },
+        {
+          "denomValue": "50000",
+          "labelId": "50.000",
+          "labelEn": "50.000",
+          "category": "LISTPREPAID",
+          "noOrder": 4
+        },
+        {
+          "denomValue": "75000",
+          "labelId": "75.000",
+          "labelEn": "75.000",
+          "category": "LISTPREPAID",
+          "noOrder": 5
+        },
+        {
+          "denomValue": "100000",
+          "labelId": "100.000",
+          "labelEn": "100.000",
+          "category": "LISTPREPAID",
+          "noOrder": 6
+        },
+        {
+          "denomValue": "150000",
+          "labelId": "150.000",
+          "labelEn": "150.000",
+          "category": "LISTPREPAID",
+          "noOrder": 7
+        },
+        {
+          "denomValue": "200000",
+          "labelId": "200.000",
+          "labelEn": "200.000",
+          "category": "LISTPREPAID",
+          "noOrder": 8
+        },
+        {
+          "denomValue": "300000",
+          "labelId": "300.000",
+          "labelEn": "300.000",
+          "category": "LISTPREPAID",
+          "noOrder": 9
+        },
+        {
+          "denomValue": "500000",
+          "labelId": "500.000",
+          "labelEn": "500.000",
+          "category": "LISTPREPAID",
+          "noOrder": 10
+        }
+      ],
+      "templateList": [
+        {
+          "lineNum": 1,
+          "fieldKey": "SOF",
+          "fieldType": "LISTSOF",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Select Source of Amount",
+          "placeholderId": "Pilih Rekening Sumber Dana",
+          "labelEn": "Source Of Amount",
+          "labelId": "Rekening Sumber Dana",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 2,
+          "fieldKey": "CUSTNO",
+          "fieldType": "TEXTNUM",
+          "minFieldLength": 1,
+          "maxFieldLength": 15,
+          "placeholderEn": "Phone Number",
+          "placeholderId": "Nomor Telepon",
+          "labelEn": "Phone Number :",
+          "labelId": "No Telp/HP :",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 3,
+          "fieldKey": "AMOUNT",
+          "fieldType": "LISTPREPAID",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Product",
+          "placeholderId": "Produk",
+          "labelEn": "Product",
+          "labelId": "Produk",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 4,
+          "fieldKey": "PAYEECODE",
+          "fieldType": "NONE",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "",
+          "placeholderId": "",
+          "labelEn": "",
+          "labelId": "",
+          "inputType": "Y",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "billerName": "XL Data",
+      "payeeCode": "PN001003",
+      "paymentHandler": 1,
+      "transactionGroup": 1,
+      "transactionCategory": "PURCHASE_PHONE",
+      "nextState": "INQUIRY",
+      "binList": [],
+      "prefixList": [
+        62817,
+        62818,
+        62819,
+        62859,
+        62877,
+        62878,
+        62879,
+        62817,
+        62818,
+        62819,
+        62859,
+        62877,
+        62878,
+        62879
+      ],
+      "denomList": [
+        {
+          "denomValue": "30000",
+          "labelId": "30.000",
+          "labelEn": "30.000",
+          "category": "LISTPACKETDATA",
+          "noOrder": 1
+        },
+        {
+          "denomValue": "59000",
+          "labelId": "59.000",
+          "labelEn": "59.000",
+          "category": "LISTPACKETDATA",
+          "noOrder": 2
+        },
+        {
+          "denomValue": "60000",
+          "labelId": "60.000",
+          "labelEn": "60.000",
+          "category": "LISTPACKETDATA",
+          "noOrder": 3
+        },
+        {
+          "denomValue": "89000",
+          "labelId": "89.000",
+          "labelEn": "89.000",
+          "category": "LISTPACKETDATA",
+          "noOrder": 4
+        },
+        {
+          "denomValue": "100000",
+          "labelId": "100.000",
+          "labelEn": "100.000",
+          "category": "LISTPACKETDATA",
+          "noOrder": 5
+        },
+        {
+          "denomValue": "129000",
+          "labelId": "129.000",
+          "labelEn": "129.000",
+          "category": "LISTPACKETDATA",
+          "noOrder": 6
+        },
+        {
+          "denomValue": "179000",
+          "labelId": "179.000",
+          "labelEn": "179.000",
+          "category": "LISTPACKETDATA",
+          "noOrder": 7
+        },
+        {
+          "denomValue": "200000",
+          "labelId": "200.000",
+          "labelEn": "200.000",
+          "category": "LISTPACKETDATA",
+          "noOrder": 8
+        },
+        {
+          "denomValue": "239000",
+          "labelId": "239.000",
+          "labelEn": "239.000",
+          "category": "LISTPACKETDATA",
+          "noOrder": 9
+        },
+        {
+          "denomValue": "300000",
+          "labelId": "300.000",
+          "labelEn": "300.000",
+          "category": "LISTPACKETDATA",
+          "noOrder": 10
+        }
+      ],
+      "templateList": [
+        {
+          "lineNum": 1,
+          "fieldKey": "SOF",
+          "fieldType": "LISTSOF",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Select Source of Amount",
+          "placeholderId": "Pilih Rekening Sumber Dana",
+          "labelEn": "Source Of Amount",
+          "labelId": "Rekening Sumber Dana",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 2,
+          "fieldKey": "CUSTNO",
+          "fieldType": "TEXTNUM",
+          "minFieldLength": 1,
+          "maxFieldLength": 15,
+          "placeholderEn": "Phone Number",
+          "placeholderId": "Nomor Telepon",
+          "labelEn": "Phone Number :",
+          "labelId": "No Telp/HP :",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 3,
+          "fieldKey": "AMOUNT",
+          "fieldType": "LISTPACKETDATA",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Product",
+          "placeholderId": "Produk",
+          "labelEn": "Product",
+          "labelId": "Produk",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 4,
+          "fieldKey": "PAYEECODE",
+          "fieldType": "NONE",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "",
+          "placeholderId": "",
+          "labelEn": "",
+          "labelId": "",
+          "inputType": "Y",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "billerName": "XL Pulsa",
+      "payeeCode": "PN001008",
+      "paymentHandler": 1,
+      "transactionGroup": 1,
+      "transactionCategory": "PURCHASE_PHONE",
+      "nextState": "INQUIRY",
+      "binList": [],
+      "prefixList": [
+        62817,
+        62818,
+        62819,
+        62859,
+        62877,
+        62878,
+        62879
+      ],
+      "denomList": [
+        {
+          "denomValue": "25000",
+          "labelId": "25.000",
+          "labelEn": "25.000",
+          "category": "LISTPREPAID",
+          "noOrder": 1
+        },
+        {
+          "denomValue": "50000",
+          "labelId": "50.000",
+          "labelEn": "50.000",
+          "category": "LISTPREPAID",
+          "noOrder": 2
+        },
+        {
+          "denomValue": "100000",
+          "labelId": "100.000",
+          "labelEn": "100.000",
+          "category": "LISTPREPAID",
+          "noOrder": 3
+        },
+        {
+          "denomValue": "150000",
+          "labelId": "150.000",
+          "labelEn": "150.000",
+          "category": "LISTPREPAID",
+          "noOrder": 4
+        },
+        {
+          "denomValue": "200000",
+          "labelId": "200.000",
+          "labelEn": "200.000",
+          "category": "LISTPREPAID",
+          "noOrder": 5
+        },
+        {
+          "denomValue": "300000",
+          "labelId": "300.000",
+          "labelEn": "300.000",
+          "category": "LISTPREPAID",
+          "noOrder": 6
+        },
+        {
+          "denomValue": "500000",
+          "labelId": "500.000",
+          "labelEn": "500.000",
+          "category": "LISTPREPAID",
+          "noOrder": 7
+        },
+        {
+          "denomValue": "1000000",
+          "labelId": "1.000.000",
+          "labelEn": "1.000.000",
+          "category": "LISTPREPAID",
+          "noOrder": 8
+        }
+      ],
+      "templateList": [
+        {
+          "lineNum": 1,
+          "fieldKey": "SOF",
+          "fieldType": "LISTSOF",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Select Source of Amount",
+          "placeholderId": "Pilih Rekening Sumber Dana",
+          "labelEn": "Source Of Amount",
+          "labelId": "Rekening Sumber Dana",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 2,
+          "fieldKey": "CUSTNO",
+          "fieldType": "TEXTNUM",
+          "minFieldLength": 1,
+          "maxFieldLength": 15,
+          "placeholderEn": "Phone Number",
+          "placeholderId": "Nomor Telepon",
+          "labelEn": "Phone Number :",
+          "labelId": "No Telp/HP :",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 3,
+          "fieldKey": "AMOUNT",
+          "fieldType": "LISTPREPAID",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Product",
+          "placeholderId": "Produk",
+          "labelEn": "Product",
+          "labelId": "Produk",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 4,
+          "fieldKey": "PAYEECODE",
+          "fieldType": "NONE",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "",
+          "placeholderId": "",
+          "labelEn": "",
+          "labelId": "",
+          "inputType": "Y",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
+==================================================================================================
 
 purchaseservice/inquiryPurchase
 {
