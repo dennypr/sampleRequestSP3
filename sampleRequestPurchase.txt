@@ -1680,7 +1680,7 @@ purchaseservice/inquiryPurchase
           "labelEn": "Source Of Amount",
           "labelId": "Rekening Sumber Dana",
           "inputType": "Y",
-          "value": "0"
+          "value": "1"
         },
         {
           "lineNum": 2,
@@ -1723,6 +1723,119 @@ purchaseservice/inquiryPurchase
         }
   ]
 }
+
+response :
+{
+  "responseCode": "00",
+  "messageId": "Sukses",
+  "messageEn": "Success",
+  "tranData": {
+    "transactionId": "TRX000000028793",
+    "transactionDate": 1656333183195,
+    "transactionCategory": "PURCHASE_PHONE",
+    "transactionGroup": 1,
+    "transactionDescription": "XL Pulsa",
+    "transactionCurrency": "IDR",
+    "transactionAmount": 0,
+    "transactionFee": 0,
+    "fromAccountNumber": "35143000099",
+    "fromAccountType": "SA",
+    "fromAccountOwnerName": "NASABAH MB45611",
+    "toAccountNumber": null,
+    "toAccountType": null,
+    "toAccountOwnerName": null,
+    "beneficiaryNumber": "1",
+    "beneficiaryOwnerName": null,
+    "billerName": "XL Pulsa",
+    "payeeCode": "PN001008",
+    "refNo": "ESB193800007",
+    "additionalData": "{\"purchaseAmount\":null,\"trxAmount\":null,\"phoneNumber\":\"1\",\"adminFee\":null,\"windowPeriod\":null,\"voucherSerialNumber\":null,\"productIndicator\":null}",
+    "inquiryRequestData": "{\"channelCode\":\"IB\",\"template\":[{\"lineNum\":1,\"fieldKey\":\"SOF\",\"fieldType\":\"LISTSOF\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Select Source of Amount\",\"placeholderId\":\"Pilih Rekening Sumber Dana\",\"labelEn\":\"Source Of Amount\",\"labelId\":\"Rekening Sumber Dana\",\"inputType\":\"Y\",\"value\":\"1\"},{\"lineNum\":2,\"fieldKey\":\"CUSTNO\",\"fieldType\":\"TEXTNUM\",\"minFieldLength\":1,\"maxFieldLength\":15,\"placeholderEn\":\"Phone Number\",\"placeholderId\":\"Nomor Telepon\",\"labelEn\":\"Phone Number :\",\"labelId\":\"No Telp/HP :\",\"inputType\":\"Y\",\"value\":\"1\"},{\"lineNum\":3,\"fieldKey\":\"AMOUNT\",\"fieldType\":\"LISTPACKETDATA\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Product\",\"placeholderId\":\"Produk\",\"labelEn\":\"Product\",\"labelId\":\"Produk\",\"inputType\":\"Y\",\"value\":\"10000\"},{\"lineNum\":4,\"fieldKey\":\"PAYEECODE\",\"fieldType\":\"NONE\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"\",\"placeholderId\":\"\",\"labelEn\":\"\",\"labelId\":\"\",\"inputType\":\"Y\",\"value\":\"PN001008\"}]}"
+  },
+  "template": [
+    {
+      "lineNum": 1,
+      "fieldKey": "PROVIDER",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Provider",
+      "placeholderId": "Provider",
+      "labelEn": "Provider",
+      "labelId": "Provider",
+      "inputType": "N",
+      "value": "XL"
+    },
+    {
+      "lineNum": 2,
+      "fieldKey": "CUSTNO",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Phone Number",
+      "placeholderId": "No Telp",
+      "labelEn": "Phone Number",
+      "labelId": "No Telp",
+      "inputType": "N",
+      "value": "1"
+    },
+    {
+      "lineNum": 3,
+      "fieldKey": "PURCHASE",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Purchase",
+      "placeholderId": "Pembelian",
+      "labelEn": "Purchase",
+      "labelId": "Pembelian",
+      "inputType": "N",
+      "value": "Rp 0,00"
+    },
+    {
+      "lineNum": 4,
+      "fieldKey": "PAYAMOUNT",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Amount",
+      "placeholderId": "Nominal",
+      "labelEn": "Amount",
+      "labelId": "Nominal",
+      "inputType": "N",
+      "value": "Rp 0,00"
+    },
+    {
+      "lineNum": 5,
+      "fieldKey": "FEEAMOUNT",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Admin Fee",
+      "placeholderId": "Biaya Admin",
+      "labelEn": "Admin Fee",
+      "labelId": "Biaya Admin",
+      "inputType": "N",
+      "value": "Rp 0,00"
+    },
+    {
+      "lineNum": 6,
+      "fieldKey": "TOTALAMOUNT",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Total",
+      "placeholderId": "Total",
+      "labelEn": "Total",
+      "labelId": "Total",
+      "inputType": "N",
+      "value": "Rp 0,00"
+    }
+  ],
+  "nextState": "EXECUTE",
+  "challengeCode": null
+}
+==================================================================================================
 
 purchaseservice/executePurchase
 {
