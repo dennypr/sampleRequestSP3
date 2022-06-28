@@ -1842,7 +1842,7 @@ purchaseservice/executePurchase
 {
   "mpin": "6a1165e757fac0e24f01db26e3....",
   "sofToken": "YxtxhDaOlQ4xqoy",
-  "channelCode": "CMB",
+  "channelCode": "IB",
   "tranId": "TRX000000028796",
   "menuId": 142,
   "isSaveToFavorite": true,
