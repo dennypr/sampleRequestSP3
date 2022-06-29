@@ -1,0 +1,201 @@
+/getdaftartugas
+{
+  "menuName": "PURCHASE_PULSE_PREPAID",
+  "transactionGroup" :1,
+  "transactionCategory" : "PURCHASE_PHONE",
+ "fromDate": "2022-04-10",
+ "toDate" : "2022-06-31",
+  "page": 1,
+  "size": 10,
+  "workFlowStatus": "WAITING"
+}
+
+response :
+{
+  "data": [
+    {
+      "date": "29/06/2022,03:21",
+      "beneficiary_owner_name": null,
+      "beneficiary_number": "1",
+      "amount": "0.00",
+      "transactionCategory": "XL Pulsa",
+      "status": "Menunggu",
+      "referenceNumber": "886738818517",
+      "menuName": "PURCHASE_EVOUCHER_GAME"
+    }
+  ],
+  "totalPages": 1,
+  "totalElements": 1,
+  "numberOfElements": 1,
+  "pageNumber": null
+}
+
+/getdetaildaftartugas
+{
+  "referenceNumber": "886738818517"
+}
+
+response :
+{
+  "transactionHistory": {
+    "amount": 0,
+    "percentage": null,
+    "id": null,
+    "transactionId": null,
+    "totalAmount": 0,
+    "adminFee": 0,
+    "fromAccountName": "NASABAH MB45611",
+    "fromAccountNumber": "112233447",
+    "toAccountName": null,
+    "toAccountNumber": null,
+    "toBankName": null,
+    "transactionType": null,
+    "transactionChoice": null,
+    "message": "XL Pulsa",
+    "status": null,
+    "fromDateStr": null,
+    "toDateStr": null,
+    "recurringCategory": null,
+    "transactionDate": null,
+    "transactionCategory": "PURCHASE_PHONE",
+    "transactionGroup": null,
+    "transactionDescription": null,
+    "transactionCurrency": null,
+    "transactionAmount": null,
+    "transactionFee": null,
+    "fromAccountType": null,
+    "fromAccountOwnerName": null,
+    "toAccountType": null,
+    "toAccountOwnerName": null,
+    "beneficiaryNumber": null,
+    "beneficiaryOwnerName": null,
+    "billerName": null,
+    "payeeCode": null,
+    "refNo": "886738818517",
+    "additionalData": null,
+    "inquiryRequestData": null,
+    "transactionHistoryDtos": null,
+    "parentId": null,
+    "dateStr": "29/06/2022 | 03:21:55",
+    "transactionModel": null
+  },
+  "purchasePulsePrepaidTemplateDto": [
+    {
+      "lineNum": 1,
+      "fieldKey": "TRANID",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Transaction ID",
+      "placeholderId": "Transaksi ID",
+      "labelEn": "Transaction ID",
+      "labelId": "Transaksi ID",
+      "inputType": "N",
+      "value": "TRX000000028926"
+    },
+    {
+      "lineNum": 2,
+      "fieldKey": "REFNO",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Ref No",
+      "placeholderId": "Ref No",
+      "labelEn": "Ref No",
+      "labelId": "Ref No",
+      "inputType": "N",
+      "value": "ESB807800029"
+    },
+    {
+      "lineNum": 3,
+      "fieldKey": "SOF",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Source of Amount",
+      "placeholderId": "Rekening Sumber Dana",
+      "labelEn": "Source of Amount",
+      "labelId": "Rekening Sumber Dana",
+      "inputType": "N",
+      "value": "112233447"
+    },
+    {
+      "lineNum": 4,
+      "fieldKey": "PROVIDER",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Provider",
+      "placeholderId": "Provider",
+      "labelEn": "Provider",
+      "labelId": "Provider",
+      "inputType": "N",
+      "value": "XL"
+    },
+    {
+      "lineNum": 5,
+      "fieldKey": "CUSTNO",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Phone Number",
+      "placeholderId": "Nomor HP",
+      "labelEn": "Phone Number",
+      "labelId": "Nomor HP",
+      "inputType": "N",
+      "value": "1"
+    },
+    {
+      "lineNum": 6,
+      "fieldKey": "PURCHASE",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Purchase",
+      "placeholderId": "Pembelian",
+      "labelEn": "Purchase",
+      "labelId": "Pembelian",
+      "inputType": "N",
+      "value": "Rp 0,00"
+    },
+    {
+      "lineNum": 7,
+      "fieldKey": "PAYAMOUNT",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Amount",
+      "placeholderId": "Nominal",
+      "labelEn": "Amount",
+      "labelId": "Nominal",
+      "inputType": "N",
+      "value": "Rp 0,00"
+    },
+    {
+      "lineNum": 8,
+      "fieldKey": "FEEAMOUNT",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Fee Amount",
+      "placeholderId": "Biaya Admin",
+      "labelEn": "Fee Amount",
+      "labelId": "Biaya Admin",
+      "inputType": "N",
+      "value": "Rp 0,00"
+    },
+    {
+      "lineNum": 9,
+      "fieldKey": "TOTALAMOUNT",
+      "fieldType": "SUMMARYLABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Total",
+      "placeholderId": "Total",
+      "labelEn": "Purchase Total",
+      "labelId": "Total Pembelian",
+      "inputType": "N",
+      "value": "Rp 0,00"
+    }
+  ]
+}
