@@ -199,3 +199,24 @@ response :
     }
   ]
 }
+
+
+/executedaftartugas
+{
+  "action": "APPROVED",
+  "menu": "PURCHASE_PULSE_PREPAID",
+  "menuId": 142,
+  "modifiedReason": "string",
+  "mpin": "6a1165e757fac0e24f01db26e3....",
+  "referenceNumber": "886738818517",
+  "softToken": "YxtxhDaOlQ4xqoy",
+  "transactionId": "TRX000000028984",
+  "userProfileId": 346
+}
+
+response 
+{
+  "statusCode": "00",
+  "message": "Success",
+  "workFlowStatusEnum": "APPROVED"
+}
