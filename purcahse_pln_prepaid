@@ -1,0 +1,395 @@
+PURCHASE_PLN_PREPAID
+
+/getbillerlist
+{
+  "billerCategory": 108
+}
+
+response :
+{
+  "billerDtoList": [
+    {
+      "billerName": "Prepaid Electricity",
+      "payeeCode": "PN005001",
+      "paymentHandler": 1,
+      "transactionGroup": 1,
+      "transactionCategory": "PURCHASE_PLN_PREPAID",
+      "nextState": "INQUIRY",
+      "binList": [],
+      "prefixList": [],
+      "denomList": [
+        {
+          "denomValue": "0|20000",
+          "labelId": "20.000",
+          "labelEn": "20.000",
+          "category": "LISTBUYOPTIONS",
+          "noOrder": 1
+        },
+        {
+          "denomValue": "0|50000",
+          "labelId": "50.000",
+          "labelEn": "50.000",
+          "category": "LISTBUYOPTIONS",
+          "noOrder": 2
+        },
+        {
+          "denomValue": "0|100000",
+          "labelId": "100.000",
+          "labelEn": "100.000",
+          "category": "LISTBUYOPTIONS",
+          "noOrder": 3
+        },
+        {
+          "denomValue": "0|200000",
+          "labelId": "200.000",
+          "labelEn": "200.000",
+          "category": "LISTBUYOPTIONS",
+          "noOrder": 4
+        },
+        {
+          "denomValue": "0|500000",
+          "labelId": "500.000",
+          "labelEn": "500.000",
+          "category": "LISTBUYOPTIONS",
+          "noOrder": 5
+        },
+        {
+          "denomValue": "0|1000000",
+          "labelId": "1.000.000",
+          "labelEn": "1.000.000",
+          "category": "LISTBUYOPTIONS",
+          "noOrder": 6
+        },
+        {
+          "denomValue": "0|5000000",
+          "labelId": "5.000.000",
+          "labelEn": "5.000.000",
+          "category": "LISTBUYOPTIONS",
+          "noOrder": 7
+        },
+        {
+          "denomValue": "0|10000000",
+          "labelId": "10.000.000",
+          "labelEn": "10.000.000",
+          "category": "LISTBUYOPTIONS",
+          "noOrder": 8
+        },
+        {
+          "denomValue": "0|50000000",
+          "labelId": "50.000.000",
+          "labelEn": "50.000.000",
+          "category": "LISTBUYOPTIONS",
+          "noOrder": 9
+        },
+        {
+          "denomValue": "1|0",
+          "labelId": "IDR Unsold Token 1",
+          "labelEn": "IDR Unsold Token 1",
+          "category": "LISTBUYOPTIONS",
+          "noOrder": 10
+        },
+        {
+          "denomValue": "1|0",
+          "labelId": "IDR Unsold Token 2",
+          "labelEn": "IDR Unsold Token 2",
+          "category": "LISTBUYOPTIONS",
+          "noOrder": 11
+        }
+      ],
+      "templateList": [
+        {
+          "lineNum": 1,
+          "fieldKey": "SOF",
+          "fieldType": "LISTSOF",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Select Source of Amount",
+          "placeholderId": "Pilih Rekening Sumber Dana",
+          "labelEn": "Source Of Amount",
+          "labelId": "Rekening Sumber Dana",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 2,
+          "fieldKey": "PAYEECODE",
+          "fieldType": "NONE",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "",
+          "placeholderId": "",
+          "labelEn": "",
+          "labelId": "",
+          "inputType": "Y",
+          "value": ""
+        },
+        {
+          "lineNum": 3,
+          "fieldKey": "CUSTNO",
+          "fieldType": "TEXTNUM",
+          "minFieldLength": 11,
+          "maxFieldLength": 12,
+          "placeholderEn": "Meter Number / Customer ID",
+          "placeholderId": "No Meter / ID Pelanggan",
+          "labelEn": "Meter Number / Customer ID :",
+          "labelId": "No Meter / ID Pelanggan :",
+          "inputType": "Y",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
+
+
+/purchaseservice/inquirypurchase
+{
+  "channelCode": "IB",
+  "template": [
+   {
+          "lineNum": 1,
+          "fieldKey": "SOF",
+          "fieldType": "LISTSOF",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Select Source of Amount",
+          "placeholderId": "Pilih Rekening Sumber Dana",
+          "labelEn": "Source Of Amount",
+          "labelId": "Rekening Sumber Dana",
+          "inputType": "Y",
+          "value": "1"
+        },
+        {
+          "lineNum": 2,
+          "fieldKey": "CUSTNO",
+          "fieldType": "TEXTNUM",
+          "minFieldLength": 1,
+          "maxFieldLength": 15,
+          "placeholderEn": "Phone Number",
+          "placeholderId": "Nomor Telepon",
+          "labelEn": "Phone Number :",
+          "labelId": "No Telp/HP :",
+          "inputType": "Y",
+          "value": "1"
+        },
+        {
+          "lineNum": 3,
+          "fieldKey": "AMOUNT",
+          "fieldType": "LISTPACKETDATA",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "Product",
+          "placeholderId": "Produk",
+          "labelEn": "Product",
+          "labelId": "Produk",
+          "inputType": "Y",
+          "value": "10000"
+        },
+        {
+          "lineNum": 4,
+          "fieldKey": "PAYEECODE",
+          "fieldType": "NONE",
+          "minFieldLength": null,
+          "maxFieldLength": null,
+          "placeholderEn": "",
+          "placeholderId": "",
+          "labelEn": "",
+          "labelId": "",
+          "inputType": "Y",
+          "value": "PN005001"
+        }
+  ]
+}
+response :
+{
+  "responseCode": "00",
+  "messageId": "sukses",
+  "messageEn": "success",
+  "tranData": {
+    "transactionId": "TRX000000029766",
+    "transactionDate": 1657251622599,
+    "transactionCategory": "PURCHASE_PLN_PREPAID",
+    "transactionGroup": 1,
+    "transactionDescription": "Prepaid Electricity",
+    "transactionCurrency": "IDR",
+    "transactionAmount": 0,
+    "transactionFee": 0,
+    "fromAccountNumber": "",
+    "fromAccountType": "",
+    "fromAccountOwnerName": "",
+    "toAccountNumber": null,
+    "toAccountType": null,
+    "toAccountOwnerName": null,
+    "beneficiaryNumber": "1",
+    "beneficiaryOwnerName": null,
+    "billerName": "Prepaid Electricity",
+    "payeeCode": "PN005001",
+    "refNo": "",
+    "additionalData": "",
+    "inquiryRequestData": "{\"channelCode\":\"IB\",\"template\":[{\"lineNum\":1,\"fieldKey\":\"SOF\",\"fieldType\":\"LISTSOF\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Select Source of Amount\",\"placeholderId\":\"Pilih Rekening Sumber Dana\",\"labelEn\":\"Source Of Amount\",\"labelId\":\"Rekening Sumber Dana\",\"inputType\":\"Y\",\"value\":\"1\"},{\"lineNum\":2,\"fieldKey\":\"CUSTNO\",\"fieldType\":\"TEXTNUM\",\"minFieldLength\":1,\"maxFieldLength\":15,\"placeholderEn\":\"Phone Number\",\"placeholderId\":\"Nomor Telepon\",\"labelEn\":\"Phone Number :\",\"labelId\":\"No Telp/HP :\",\"inputType\":\"Y\",\"value\":\"1\"},{\"lineNum\":3,\"fieldKey\":\"AMOUNT\",\"fieldType\":\"LISTPACKETDATA\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Product\",\"placeholderId\":\"Produk\",\"labelEn\":\"Product\",\"labelId\":\"Produk\",\"inputType\":\"Y\",\"value\":\"10000\"},{\"lineNum\":4,\"fieldKey\":\"PAYEECODE\",\"fieldType\":\"NONE\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"\",\"placeholderId\":\"\",\"labelEn\":\"\",\"labelId\":\"\",\"inputType\":\"Y\",\"value\":\"PN005001\"}],\"menuId\":142,\"isSaveToFavorite\":false}"
+  },
+  "template": null,
+  "nextState": "EXECUTE",
+  "challengeCode": null
+}
+
+purchaseservice/executepurchase
+{
+  "mpin": "6a1165e757fac0e24f01db26e3....",
+  "sofToken": "YxtxhDaOlQ4xqoy",
+  "channelCode": "IB",
+  "tranId": "TRX000000029768",
+  "isSaveToFavorite": true,
+  "favoriteName": "Favorite Name"
+}
+
+response :
+
+{
+  "responseCode": "0019",
+  "messageId": "Terjadi kesalahan",
+  "messageEn": "Something went wrong",
+  "tranData": {
+    "transactionId": "TRX000000029768",
+    "transactionDate": 1657253035795,
+    "transactionCategory": "PURCHASE_PLN_PREPAID",
+    "transactionGroup": 1,
+    "transactionDescription": "Prepaid Electricity",
+    "transactionCurrency": "IDR",
+    "transactionAmount": 0,
+    "transactionFee": 0,
+    "fromAccountNumber": "112233447",
+    "fromAccountType": "CA",
+    "fromAccountOwnerName": "NASABAH MB45611",
+    "toAccountNumber": null,
+    "toAccountType": null,
+    "toAccountOwnerName": null,
+    "beneficiaryNumber": "1",
+    "beneficiaryOwnerName": null,
+    "billerName": "Prepaid Electricity",
+    "payeeCode": "PN005001",
+    "refNo": "ESB163200717",
+    "additionalData": "",
+    "inquiryRequestData": "{\"channelCode\":\"IB\",\"template\":[{\"lineNum\":1,\"fieldKey\":\"SOF\",\"fieldType\":\"LISTSOF\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Select Source of Amount\",\"placeholderId\":\"Pilih Rekening Sumber Dana\",\"labelEn\":\"Source Of Amount\",\"labelId\":\"Rekening Sumber Dana\",\"inputType\":\"Y\",\"value\":\"1\"},{\"lineNum\":2,\"fieldKey\":\"CUSTNO\",\"fieldType\":\"TEXTNUM\",\"minFieldLength\":1,\"maxFieldLength\":15,\"placeholderEn\":\"Phone Number\",\"placeholderId\":\"Nomor Telepon\",\"labelEn\":\"Phone Number :\",\"labelId\":\"No Telp/HP :\",\"inputType\":\"Y\",\"value\":\"1\"},{\"lineNum\":3,\"fieldKey\":\"AMOUNT\",\"fieldType\":\"LISTPACKETDATA\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Product\",\"placeholderId\":\"Produk\",\"labelEn\":\"Product\",\"labelId\":\"Produk\",\"inputType\":\"Y\",\"value\":\"10000\"},{\"lineNum\":4,\"fieldKey\":\"PAYEECODE\",\"fieldType\":\"NONE\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"\",\"placeholderId\":\"\",\"labelEn\":\"\",\"labelId\":\"\",\"inputType\":\"Y\",\"value\":\"PN005001\"}],\"menuId\":null,\"isSaveToFavorite\":false}"
+  },
+  "template": [
+    {
+      "lineNum": 2,
+      "fieldKey": "TRANID",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "ID Transaction",
+      "placeholderId": "Transaksi ID",
+      "labelEn": "ID Transaction",
+      "labelId": "Transaksi ID",
+      "inputType": "N",
+      "value": "TRX000000029768"
+    },
+    {
+      "lineNum": 3,
+      "fieldKey": "REFNO",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Ref No",
+      "placeholderId": "Ref No",
+      "labelEn": "Ref No",
+      "labelId": "Ref No",
+      "inputType": "N",
+      "value": "ESB163200717"
+    },
+    {
+      "lineNum": 4,
+      "fieldKey": "SOFNO",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Source of Account",
+      "placeholderId": "Rekening Sumber Dana",
+      "labelEn": "Source of Account",
+      "labelId": "Rekening Sumber Dana",
+      "inputType": "N",
+      "value": ""
+    },
+    {
+      "lineNum": 7,
+      "fieldKey": "CUSTNO",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Meter Number / Customer ID",
+      "placeholderId": "No Meter / ID Pelanggan",
+      "labelEn": "Meter Number / Customer ID",
+      "labelId": "No Meter / ID Pelanggan",
+      "inputType": "N",
+      "value": ""
+    },
+    {
+      "lineNum": 8,
+      "fieldKey": "CUSTNAME",
+      "fieldType": "LABELOPT",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Customer Name",
+      "placeholderId": "Nama Pelanggan",
+      "labelEn": "Customer Name",
+      "labelId": "Nama Pelanggan",
+      "inputType": "N",
+      "value": ""
+    },
+    {
+      "lineNum": 9,
+      "fieldKey": "PAYAMOUNT",
+      "fieldType": "LABELOPT",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Amount",
+      "placeholderId": "Nominal",
+      "labelEn": "Amount",
+      "labelId": "Nominal",
+      "inputType": "N",
+      "value": "Rp 0,00"
+    },
+    {
+      "lineNum": 10,
+      "fieldKey": "FEEAMOUNT",
+      "fieldType": "LABELOPT",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Admin Fee",
+      "placeholderId": "Biaya Admin",
+      "labelEn": "Admin Fee",
+      "labelId": "Biaya Admin",
+      "inputType": "N",
+      "value": "Rp 0,00"
+    },
+    {
+      "lineNum": 11,
+      "fieldKey": "TOTAL",
+      "fieldType": "LABELOPT",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Total",
+      "placeholderId": "Total",
+      "labelEn": "Total",
+      "labelId": "Total",
+      "inputType": "N",
+      "value": ""
+    },
+    {
+      "lineNum": 12,
+      "fieldKey": "FOOTER",
+      "fieldType": "FOOTER",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "",
+      "placeholderId": "",
+      "labelEn": "",
+      "labelId": "",
+      "inputType": "N",
+      "value": "null\nPLN MENYATAKAN STRUK INI SEBAGAI PEMBAYARAN YANG SAH"
+    }
+  ],
+  "transactionStatus": "SUCCESS"
+}
