@@ -246,9 +246,9 @@ purchaseservice/executepurchase
 response :
 
 {
-  "responseCode": "0019",
-  "messageId": "Terjadi kesalahan",
-  "messageEn": "Something went wrong",
+  "responseCode": "00",
+  "messageId": "sukses",
+  "messageEn": "Success",
   "tranData": {
     "transactionId": "TRX000000029768",
     "transactionDate": 1657253035795,
