@@ -142,11 +142,13 @@ response :
 }
 
 
+
 /purchaseservice/inquirypurchase
 {
-  "channelCode": "IB",
+  "channelCode": "CIB",
+  "isSaveToFavorite": false,
   "template": [
-   {
+    {
           "lineNum": 1,
           "fieldKey": "SOF",
           "fieldType": "LISTSOF",
@@ -161,32 +163,6 @@ response :
         },
         {
           "lineNum": 2,
-          "fieldKey": "CUSTNO",
-          "fieldType": "TEXTNUM",
-          "minFieldLength": 1,
-          "maxFieldLength": 15,
-          "placeholderEn": "Phone Number",
-          "placeholderId": "Nomor Telepon",
-          "labelEn": "Phone Number :",
-          "labelId": "No Telp/HP :",
-          "inputType": "Y",
-          "value": "1"
-        },
-        {
-          "lineNum": 3,
-          "fieldKey": "AMOUNT",
-          "fieldType": "LISTPACKETDATA",
-          "minFieldLength": null,
-          "maxFieldLength": null,
-          "placeholderEn": "Product",
-          "placeholderId": "Produk",
-          "labelEn": "Product",
-          "labelId": "Produk",
-          "inputType": "Y",
-          "value": "10000"
-        },
-        {
-          "lineNum": 4,
           "fieldKey": "PAYEECODE",
           "fieldType": "NONE",
           "minFieldLength": null,
@@ -197,41 +173,128 @@ response :
           "labelId": "",
           "inputType": "Y",
           "value": "PN005001"
+        },
+        {
+          "lineNum": 3,
+          "fieldKey": "CUSTNO",
+          "fieldType": "TEXTNUM",
+          "minFieldLength": 11,
+          "maxFieldLength": 12,
+          "placeholderEn": "Meter Number / Customer ID",
+          "placeholderId": "No Meter / ID Pelanggan",
+          "labelEn": "Meter Number / Customer ID :",
+          "labelId": "No Meter / ID Pelanggan :",
+          "inputType": "Y",
+          "value": "11"
         }
   ]
 }
 response :
 {
   "responseCode": "00",
-  "messageId": "sukses",
-  "messageEn": "success",
+  "messageId": "Sukses",
+  "messageEn": "Success",
   "tranData": {
-    "transactionId": "TRX000000029766",
-    "transactionDate": 1657251622599,
+    "transactionId": "TRX000000030086",
+    "transactionDate": 1657601791011,
     "transactionCategory": "PURCHASE_PLN_PREPAID",
     "transactionGroup": 1,
     "transactionDescription": "Prepaid Electricity",
     "transactionCurrency": "IDR",
-    "transactionAmount": 0,
-    "transactionFee": 0,
-    "fromAccountNumber": "",
-    "fromAccountType": "",
-    "fromAccountOwnerName": "",
+    "transactionAmount": 100000,
+    "transactionFee": 100000,
+    "fromAccountNumber": "112233447",
+    "fromAccountType": "CA",
+    "fromAccountOwnerName": "NASABAH MB45611",
     "toAccountNumber": null,
     "toAccountType": null,
     "toAccountOwnerName": null,
-    "beneficiaryNumber": "1",
+    "beneficiaryNumber": "11",
     "beneficiaryOwnerName": null,
     "billerName": "Prepaid Electricity",
     "payeeCode": "PN005001",
-    "refNo": "",
-    "additionalData": "",
-    "inquiryRequestData": "{\"channelCode\":\"IB\",\"template\":[{\"lineNum\":1,\"fieldKey\":\"SOF\",\"fieldType\":\"LISTSOF\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Select Source of Amount\",\"placeholderId\":\"Pilih Rekening Sumber Dana\",\"labelEn\":\"Source Of Amount\",\"labelId\":\"Rekening Sumber Dana\",\"inputType\":\"Y\",\"value\":\"1\"},{\"lineNum\":2,\"fieldKey\":\"CUSTNO\",\"fieldType\":\"TEXTNUM\",\"minFieldLength\":1,\"maxFieldLength\":15,\"placeholderEn\":\"Phone Number\",\"placeholderId\":\"Nomor Telepon\",\"labelEn\":\"Phone Number :\",\"labelId\":\"No Telp/HP :\",\"inputType\":\"Y\",\"value\":\"1\"},{\"lineNum\":3,\"fieldKey\":\"AMOUNT\",\"fieldType\":\"LISTPACKETDATA\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Product\",\"placeholderId\":\"Produk\",\"labelEn\":\"Product\",\"labelId\":\"Produk\",\"inputType\":\"Y\",\"value\":\"10000\"},{\"lineNum\":4,\"fieldKey\":\"PAYEECODE\",\"fieldType\":\"NONE\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"\",\"placeholderId\":\"\",\"labelEn\":\"\",\"labelId\":\"\",\"inputType\":\"Y\",\"value\":\"PN005001\"}],\"menuId\":142,\"isSaveToFavorite\":false}"
+    "refNo": "ESB777900066",
+    "additionalData": "{\"purchaseAmount\":\"100000\",\"trxAmount\":\"100000\",\"meterSerialNumber\":\"111111333\",\"buyingOptions\":\"100000\",\"date\":\"100000\",\"time\":\"100000\",\"customerName\":\"111111333\",\"adminFee\":\"100000\",\"reference\":\"100000\",\"customerId\":\"100000\",\"reff\":\"111111333\",\"receiptFormatMeterSerialNumber\":\"100000\",\"receiptFormatCustomerName\":\"100000\",\"receiptFormatTariff\":\"100000\",\"availToken1\":\"111111333\",\"availToken2\":\"100000\",\"plnRefNumber\":\"100000\",\"plnFooter\":\"100000\",\"purchaseRetrievalReferenceNumber\":\"100000\",\"purchaseDateTime\":\"111111333\"}",
+    "inquiryRequestData": "{\"channelCode\":\"IB\",\"template\":[{\"lineNum\":1,\"fieldKey\":\"SOF\",\"fieldType\":\"LISTSOF\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"Select Source of Amount\",\"placeholderId\":\"Pilih Rekening Sumber Dana\",\"labelEn\":\"Source Of Amount\",\"labelId\":\"Rekening Sumber Dana\",\"inputType\":\"Y\",\"value\":\"1\"},{\"lineNum\":2,\"fieldKey\":\"PAYEECODE\",\"fieldType\":\"NONE\",\"minFieldLength\":null,\"maxFieldLength\":null,\"placeholderEn\":\"\",\"placeholderId\":\"\",\"labelEn\":\"\",\"labelId\":\"\",\"inputType\":\"Y\",\"value\":\"PN005001\"},{\"lineNum\":3,\"fieldKey\":\"CUSTNO\",\"fieldType\":\"TEXTNUM\",\"minFieldLength\":11,\"maxFieldLength\":12,\"placeholderEn\":\"Meter Number / Customer ID\",\"placeholderId\":\"No Meter / ID Pelanggan\",\"labelEn\":\"Meter Number / Customer ID :\",\"labelId\":\"No Meter / ID Pelanggan :\",\"inputType\":\"Y\",\"value\":\"11\"}],\"menuId\":null,\"isSaveToFavorite\":false}"
   },
-  "template": null,
+  "template": [
+    {
+      "lineNum": 1,
+      "fieldKey": "CUSTNO",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Meter Number / Customer ID",
+      "placeholderId": "No Meter / ID Pelanggan",
+      "labelEn": "Meter Number / Customer ID",
+      "labelId": "No Meter / ID Pelanggan",
+      "inputType": "N",
+      "value": "11"
+    },
+    {
+      "lineNum": 2,
+      "fieldKey": "PAYMENTTYPE",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Electric Type",
+      "placeholderId": "Jenis Listrik",
+      "labelEn": "Electric Type",
+      "labelId": "Jenis Listrik",
+      "inputType": "N",
+      "value": "Listrik Prepaid"
+    },
+    {
+      "lineNum": 3,
+      "fieldKey": "PAYAMOUNT",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Amount",
+      "placeholderId": "Nominal",
+      "labelEn": "Amount",
+      "labelId": "Nominal",
+      "inputType": "N",
+      "value": "Rp 100.000,00"
+    },
+    {
+      "lineNum": 4,
+      "fieldKey": "FEEAMOUNT",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Admin Fee",
+      "placeholderId": "Biaya Admin",
+      "labelEn": "Admin Fee",
+      "labelId": "Biaya Admin",
+      "inputType": "N",
+      "value": "Rp 100.000,00"
+    },
+    {
+      "lineNum": 5,
+      "fieldKey": "TOTALAMOUNT",
+      "fieldType": "LABEL",
+      "minFieldLength": null,
+      "maxFieldLength": null,
+      "placeholderEn": "Total",
+      "placeholderId": "Total",
+      "labelEn": "Total",
+      "labelId": "Total",
+      "inputType": "N",
+      "value": "Rp 200.000,00"
+    }
+  ],
   "nextState": "EXECUTE",
-  "challengeCode": null
+  "challengeCode": {
+    "message": "Approved",
+    "responseCode": "00",
+    "challengeCode": "HqhVILAgJNk+DbElxL0KWQ6MFtXHJImeMR2B9Dzi4OFI08BMxSh0COE6AtiWpAyHMjUeQAsyAKUUjTs4tIozBRvnePeLqMir8C5iJpt9BNLrWuv8/F/qdLpzoP+H7aCXiULClINqTblvpLa/+U2+S/ubKRwKTGS471PA5a09Bxg=",
+    "transactionId": null,
+    "expired": "10",
+    "resendCounter": 0
+  }
 }
+
 
 purchaseservice/executepurchase
 {
@@ -392,4 +455,4 @@ response :
     }
   ],
   "transactionStatus": "SUCCESS"
-}
+}a
